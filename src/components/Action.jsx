@@ -44,7 +44,7 @@ const Action = () => {
           </div>
           <h1 className=" text-sm text-gray-400 text-center mb-11">Hours</h1>
           <button
-            className=" bg-[#03AE85] w-28 h-8 rounded hover:bg-[#029C77] active:bg-[#029C77] active:scale-95 duration-200 "
+            className=" bg-[#03AE85] w-28 h-8 text-white rounded hover:bg-[#029C77] active:bg-[#029C77] active:scale-105 active:text-xs  duration-300 "
             onClick={handleStart}
           >
             START
@@ -57,7 +57,7 @@ const Action = () => {
           </div>
           <h3 className=" text-sm text-gray-400 text-center mb-11">Minutes</h3>
           <button
-            className=" bg-white w-28 h-8 rounded border-2 hover:bg-slate-100 active:scale-95 duration-200"
+            className=" bg-white w-28 h-8 rounded border-2 hover:bg-slate-100 active:scale-105 active:text-xs duration-300"
             onClick={handlePause}
           >
             PAUSE
@@ -70,7 +70,7 @@ const Action = () => {
           </div>
           <h3 className=" text-sm text-gray-400 text-center mb-11">Seconds</h3>
           <button
-            className=" bg-[#FD6259] w-28 h-8 rounded  hover:bg-[#CA4E47] active:bg-[#E35850] active:scale-95 duration-200"
+            className=" bg-[#FD6259] w-28 h-8 rounded text-white  hover:bg-[#CA4E47] active:bg-[#E35850] active:scale-105 active:text-xs duration-300"
             onClick={handleReset}
           >
             RESET
